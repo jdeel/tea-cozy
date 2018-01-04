@@ -1,0 +1,45 @@
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  background-color: black;
+  justify-content: space-between;
+  align-items: center;
+  height: 69px;
+  padding: 10px;
+  border-bottom: 1px solid seashell;
+}
+
+.logo img {
+  max-height: 50px;
+}
+
+.nav-link {
+  color: seashell;
+  text-decoration: underline;
+  margin: 0px 10px;
+}
+
+.sec-one {
+  width: 1200px;
+  height: 700px;
+  margin: auto;
+}
+
+.sec-one img {
+  position: relative;
+}
+
+.mission {
+  position: relative;
+  z-index: 2;
+  vertical-align: middle;
+}
