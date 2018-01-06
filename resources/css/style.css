@@ -28,6 +28,11 @@ header {
   margin: 0px 10px;
 }
 
+.main {
+  display: flex;
+  justify-content: center;
+}
+
 .sec-one {
   display: flex;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
@@ -41,16 +46,16 @@ header {
 .mission {
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 1200px;
   background-color: black;
 }
 
 .sec-two {
   width: 1000px;
-  margin: auto;
+  margin: 50px auto;
 }
 
-.teas {
+.tea-selections {
   display: flex;
   width: 1000px;
   flex-wrap: wrap;
@@ -60,9 +65,45 @@ header {
 .teas img{
   width: 300px;
   height: 200px;
-  margin: 0px 16px;
+  margin: 0px 10px;
 }
 
-.teas h4 {
-  height: 10px;
+.sec-three {
+  display: flex;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  width: 1200px;
+  height: 500px;
+  margin: auto;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.sec-three-container h2 {
+  margin-bottom: 15px;
+}
+
+.address-list {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.locations {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  margin: 0px 20px;
+  align-items: center;
+  opacity: 1;
+}
+
+.contact {
+  height: 200px;
+}
+
+.copyright {
+  text-align: left;
+  margin: 20px;
 }
